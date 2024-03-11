@@ -1,0 +1,40 @@
+{
+    "name": "yceruto/self-update-project",
+    "description": "Dummy project for self-update Composer plugin",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yceruto\\SelfUpdateProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yonel Ceruto",
+            "email": "yonelceruto@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../self-update-plugin",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "yceruto/self-update-plugin": "dev-main"
+    },
+    "config": {
+        "allow-plugins": {
+            "yceruto/self-update-plugin": true
+        }
+    },
+    "extra": {
+        "self-update-plugin": {
+            "package": "yceruto/self-update-project",
+            "require": "1.0"
+        }
+    }
+}

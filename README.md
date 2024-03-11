@@ -1,2 +1,3 @@
 # self-update-project
-Dummy project for self-update Composer plugin
+
+Test double project for self-update Composer plugin
