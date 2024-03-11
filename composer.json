@@ -24,7 +24,7 @@
     },
     "extra": {
         "self-update-plugin": {
-            "require": "1.1.*"
+            "require": "2.0.*"
         }
     }
 }
