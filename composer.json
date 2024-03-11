@@ -21,11 +21,5 @@
         "allow-plugins": {
             "yceruto/self-update-plugin": true
         }
-    },
-    "extra": {
-        "self-update-plugin": {
-            "package": "yceruto/self-update-project",
-            "require": "1.0"
-        }
     }
 }
