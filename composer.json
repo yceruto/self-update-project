@@ -14,15 +14,6 @@
             "email": "yonelceruto@gmail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../self-update-plugin",
-            "options": {
-                "symlink": true
-            }
-        }
-    ],
     "require": {
         "yceruto/self-update-plugin": "dev-main"
     },
