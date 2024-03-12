@@ -15,11 +15,11 @@
         }
     ],
     "require": {
-        "yceruto/self-update-plugin": "dev-main"
+        "scnd-sas/self-update-plugin": "dev-main"
     },
     "config": {
         "allow-plugins": {
-            "yceruto/self-update-plugin": true
+            "scnd-sas/self-update-plugin": true
         }
     },
     "extra": {
